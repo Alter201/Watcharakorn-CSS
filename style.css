@@ -2,7 +2,7 @@ h2 {
     color: blueviolet;
 }
 
-.title{
+.title {
     text-align: right;
     font-size: 50px;
 }
@@ -13,12 +13,12 @@ p {
     background-color: azure;
 }
 
-body{
-    background-image:url("Shotaro.jpg") ;
+body {
+    background-image: url("Shotaro.jpg");
     background-attachment: fixed;
 }
 
-.techer{
+.techer {
     font-size: 90px;
     color: aqua;
     text-align: center;
@@ -26,50 +26,54 @@ body{
     padding: 50px;
 }
 
-p.error{
+p.error {
     color: rgb(97, 179, 255);
     font-size: 20px;
     font-weight: bolder;
 }
 
-p.success{
+p.success {
     color: rgb(255, 93, 206);
     font-size: 20px;
     font-weight: bold;
 }
 
-#box1{
+#box1 {
     width: 200px;
     height: 100px;
     background-color: brown;
     float: left;
 }
-#box2{
+
+#box2 {
     width: 200px;
     height: 100px;
     background-color: rgb(255, 125, 125);
     float: left;
 }
-#box3{
+
+#box3 {
     width: 200px;
     height: 100px;
     background-color: rgb(125, 144, 255);
     float: left;
 }
-#box4{
+
+#box4 {
     width: 200px;
     height: 100px;
     background-color: rgb(125, 255, 136);
     float: left;
 }
-#box5{
+
+#box5 {
     width: 200px;
     height: 100px;
     background-color: rgb(255, 219, 102);
     float: left;
 }
 
-.nav{
+.nav {
     background-color: bisque;
     list-style-type: none;
     text-align: center;
@@ -78,8 +82,34 @@ p.success{
     clear: left;
 }
 
-.nav li{
+.nav li {
     display: inline-block;
     font-size: 20px;
     padding: 30px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+
+div.hover {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: width 2s;
+}
+
+div.hover:hover {
+    width: 300px;
+}
+
+.button{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
 }
